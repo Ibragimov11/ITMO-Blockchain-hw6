@@ -1,16 +1,14 @@
 # HW6
 
-## Configuring
+## Configuration
 
-```bash
-npm install
-npm install --save-dev hardhat
-```
-
-Then set your Alchemy api key to `ALCHEMY_TOKEN` at `.env` file
+Set your Alchemy api key to `ALCHEMY_TOKEN` at `.env` file.
+Then run scripts:
 
 #### Compile and run tests:
 ```bash
+npm install --save-dev hardhat
+npx hardhat clean
 npx hardhat compile
 npx hardhat test
 ```
